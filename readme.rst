@@ -41,6 +41,9 @@ Installation
 
 1. composer require chriskacerguis/codeigniter-restserver
 2. copy rest.php in vendor to config
+3. Update application/config/config.php: 
+
+=> $config['composer_autoload'] = FCPATH . 'vendor/autoload.php';
 
 *******
 License

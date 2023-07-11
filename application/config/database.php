@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => 'localhost:3310',
 	'username' => 'root',
 	'password' => '',
 	'database' => 'rest_api',
